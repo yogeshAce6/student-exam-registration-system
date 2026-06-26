@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/yourusername/student-exam-registration-system.git'
+                git branch: 'main', url: 'https://github.com/yogeshAce6/student-exam-registration-system/blob/main/Jenkinsfile'
             }
         }
 
